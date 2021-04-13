@@ -5,7 +5,7 @@ def get_reverse(n):
     while i > 0:
         rem = i % 10
         rev = rev * 10 + rem
-        i = i // 10
+        i = i // 10 # // gives quotient without decimals, / gives quotient with decimals
 
     return rev
 

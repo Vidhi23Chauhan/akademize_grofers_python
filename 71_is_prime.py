@@ -7,7 +7,7 @@ def is_prime(n):
         if n % i == 0:
             return False
 
-        i += 1
+        i += 1 # same as i = i + 1
 
     return True
 
