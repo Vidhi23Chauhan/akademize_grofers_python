@@ -12,6 +12,8 @@ print("Index of first space: ", message.index(' '))
 first_space_index = message.index(' ')
 print("Text after first space:", message[first_space_index + 1:])
 
+print("Index of last space: ", message.rindex(' '))
+
 last_space_index = message.rindex(' ')
 print("Text after last space:", message[last_space_index + 1:])
 
@@ -28,6 +30,7 @@ is a lorem ipsum text.
 This is a lorem
 Index of first space:  4
 Text after first space: is a lorem ipsum text.
+Index of last space:  21
 Text after last space: text.
 ['This', 'is', 'a', 'lorem', 'ipsum', 'text.']
 
