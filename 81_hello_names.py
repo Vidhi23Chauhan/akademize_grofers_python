@@ -1,14 +1,30 @@
-names = ["Vidhi", "Vaibhav", "Ankit", "Shikha"]
-wishes = ["Good morning", "Good evening", "Good night"]
+names = ["Sravan", "Arun", "Varun"]
+wishes = ["Good morning","Good evening","Good night"]
+
+def name(n):
+    for i in range(3):
+        print(f"{wishes[i]} {names[n]}")
+        i += 1
 
 
-for i in range(4):
-    print(f"{names[i]}.{wishes[i]}")
+def main():
+    for n in range(3):
+        name(n)
+        n += 1
+
+main() 
+
 
 
 """
-Vidhi.Good morning
-Vaibhav.Good evening
-Ankit.Good night
+Good morning Sravan
+Good evening Sravan
+Good night Sravan
+Good morning Arun
+Good evening Arun
+Good night Arun
+Good morning Varun
+Good evening Varun
+Good night Varun
 
 """
